@@ -13,6 +13,7 @@ const fileInput = document.getElementById('file-input');
     const selectedFile = document.getElementById('selected-file');
     const errorMessage = document.getElementById('error-message');
     //const canvasContainer = document.getElementById('canvas-container');
+    scene.background = new THREE.Color( 0xff0000 );
 
     fileInput.addEventListener('change', handleFileUpload);
 
